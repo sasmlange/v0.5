@@ -170,4 +170,23 @@ Step 6: Filter the table
 We now want to filter the table by population the is greater then 1
 million.
 
-We will use the **fillter** method
+We will use the **filter** method to filter the table and then print out the result.
+
+.. code-block:: python
+    :emphasize-lines: 15
+
+    import tablebase
+
+    My_Table = tablebase.Table()
+
+    My_Table.add_col("City")
+    My_Table.add_col("Founder")
+    My_Table.add_col("Population")
+
+    My_Table.add_row(["Los Angeles", "Felipe de Neve", "3967000"])
+    My_Table.add_row(["New York", "Peter Minuit", "8419000"])
+    My_Table.add_row(["Plymouth", "William Bradford", "60803"])
+
+    print(My_Table.table_content)
+
+    print(May_Table.filter("Population"))
