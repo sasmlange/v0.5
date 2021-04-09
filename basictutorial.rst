@@ -6,7 +6,7 @@ Introduction
 
 In this tutorial you will make a Table Base **Table** object that contains
 names of cities and their population. We will then filter the table
-fpr cities that have a population greater then a value.
+for cities that have a population greater then a value.
 
 
 Step 1: Importing and Installing Table Base
@@ -189,6 +189,23 @@ We will use the **filter** method to filter the table and then print out the res
 
     print(My_Table.table_content)
 
-    print(May_Table.filter("Population"))
+    print(My_Table.filter("Population", "1000000", "greaterthan"))
 
-A link-  :ref:`Goto Intro <Introduction>`
+The result should look something like this (Note: This result is
+formatted to be more readable):
+
+.. code-block:: bash
+
+    [
+        ['City', 'Founder', 'Population'],
+        ['Los Angeles', 'Felipe de Neve', '3967000'],
+        ['New York', 'Peter Minuit', '8419000'],
+        ['Plymouth', 'William Bradford', '60803']
+    ]
+
+    [
+        ['City', 'Founder', 'Population'],
+        ['Los Angeles', 'Felipe de Neve', '3967000'],
+        ['New York', 'Peter Minuit', '8419000']
+    ]
+
