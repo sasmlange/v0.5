@@ -191,6 +191,11 @@ We will use the **filter** method to filter the table and then print out the res
 
     print(My_Table.filter("Population", "1000000", "greaterthan"))
 
+What did we just do? We filtered the **Population** column in **My_Table**
+with the **filter** method for cities that have a population greater than
+1 million (1000000) people. For more information see
+:ref:`Introduction <the filter method>`
+
 The result should look something like this (Note: This result is
 formatted to be more readable):
 
@@ -209,3 +214,5 @@ formatted to be more readable):
         ['New York', 'Peter Minuit', '8419000']
     ]
 
+Notice how the second table does not have Plymouth because it does not have a
+population greater than 1 million.

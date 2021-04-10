@@ -38,3 +38,9 @@ Tablebase v0.5's documentation
 
    intro
    basictutorial
+
+.. toctree::
+   :caption: Classes
+   :maxdepth: 2
+
+   table
