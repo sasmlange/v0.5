@@ -3,10 +3,13 @@ Table
 
 **Methods**
 
-.. list-table:: All Documentations
-   :widths: 25 25 50
-   :header-rows: 1
+|line-l| |line-h|
 
-    * -
 
-a
+.. |line-l| raw:: latex
+
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+
+.. |line-h| raw:: html
+
+    <hr>
