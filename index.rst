@@ -38,5 +38,6 @@ Tablebase v0.5's documentation
 
    intro
    basictutorial
+   Table <table>
 
 
